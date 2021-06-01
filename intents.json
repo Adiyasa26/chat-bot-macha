@@ -1,0 +1,39 @@
+{
+    "intents": [{
+            "tag": "greet",
+            "patterns": ["halo", "hi", "pagi", "siang", "hello", "sore", "malam"],
+            "responses": ["Hey! Aku Macha, siap membantumu!", "Hai! Aku Macha. Ada yang bisa dibantu?"],
+            "context_set": ""
+        },
+        {
+            "tag": "bye",
+            "patterns": ["Bye", "Dada", "Goodbye"],
+            "responses": ["Terima kasih. Semoga harimu menyenangkan!", "Terima kasih sudah chat dengan Macha!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Makasih"],
+            "responses": ["Macha senang bisa membantu :)", "Ah, Macha jadi malu. Iya, sama-sama"]
+        },
+        {
+            "tag": "ask_general",
+            "patterns": ["Apa itu mental illness?", "Apa penyebab mental illness", "Kenapa orang bisa kena penyakit mental?"],
+            "responses": ["Mental illness adalah istilah yang mengacu pada berbagai kondisi yang memengaruhi pemikiran, perasaan, suasana hati, atau perilaku seseorang. Kondisi ini bisa terjadi hanya sesekali atau berlangsung dalam waktu yang lama."]
+        },
+        {
+            "tag": "ask_doctor",
+            "patterns": ["Gimana cara mencari dokter kesehatan mental?", "Gimana cara cari terapis mental illness?", "Bagaimana cara mencari psikolog?"],
+            "responses": ["Cara termudah untuk mencari layanan kesehatan jiwa adalah dengan mengunjungi Puskesmas terdekat. Bagi yang tidak memiliki kartu BPJS, hanya dikenakan biaya administrasi antara Rp5.000,- s/d Rp30.000,- (tergantung lokasi)."]
+        },
+        {
+            "tag": "ask_medicine",
+            "patterns": ["Apakah ada obat untuk mental illness?", "Di mana beli obat untuk mental health?"],
+            "responses": ["Sebaiknya konsultasi terlebih dahulu ke layanan kesehatan jiwa untuk mendapatkan obat."]
+        },
+        {
+            "tag": "ask_macha",
+            "patterns": ["Kamu siapa?", "Siapa kamu?"],
+            "responses": ["Aku Macha, teman yang akan membantumu :)"]
+        }
+    ]
+}
